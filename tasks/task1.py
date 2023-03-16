@@ -21,3 +21,10 @@ inputs = [
 ]
 
 # тут ваше решение:
+for i in inputs:
+    input_list = input.split(" ")    
+    number_list = [int(string) for string in input_list]
+    number_list = 
+    a,x,b,c = number_list
+    y =a * x**2 + b * x + c
+    print(y)
