@@ -24,9 +24,9 @@ inputs = [
 # тут ваше решение:
 
 for j in inputs:
-    d = ''.join([i.lower() for i in j if i.isalpha() or i.isdigit()])
+    d = ''.join([i.lower() for i in j if i.isalnum()])
     s = ''.join(reversed(d))
-    if d[0:len(d)//2] == s[0:len(d)//2]:
+    if d == s:
         print(True)
     else:
         print(False)

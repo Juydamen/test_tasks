@@ -25,3 +25,18 @@ for i in inputs:
     d = i.split(' ')
     s = [True if int(d[j]) % 2 == 0 else False for j in range(len(d))]
     print('WIN' if len(set(s)) == 1 else 'FAIL')
+
+
+for i in inputs:
+    inp = i.split()
+    values = list(map(int, inp))
+    n = 0
+    enm = 0
+    for i in value:
+        if value in values:
+            enm +=1
+        n += 1
+    if enm == n:
+        print('WIN')
+    else:
+        print('FAIL')

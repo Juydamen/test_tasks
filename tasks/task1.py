@@ -22,10 +22,13 @@ inputs = [
 ]
 
 # тут ваше решение:
+"""
 for i in inputs:
     inp = i.split(" ")
     a = int(inp[0])
     x = int(inp[1])
     b = int(inp[2])
     c = int(inp[3])
-    print(a * x ** 2 + b * x + c)
+    print(a * x ** 2 + b * x + c)"""
+
+
