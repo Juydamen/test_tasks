@@ -32,8 +32,8 @@ for i in inputs:
     values = list(map(int, inp))
     n = 0
     enm = 0
-    for i in value:
-        if value in values:
+    for nu in values:
+        if nu in values:
             enm +=1
         n += 1
     if enm == n:
